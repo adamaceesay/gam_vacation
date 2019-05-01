@@ -1,2 +1,1 @@
-# gamvacations
 # gam_vacation
