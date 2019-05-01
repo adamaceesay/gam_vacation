@@ -1,0 +1,36 @@
+.parent{
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+}
+ .child{
+   width: 47%;
+ }
+
+ .child img{
+   width: 100%;
+ }
+ h2{
+   color: red;
+   font-size: 30px;
+ }
+ p{
+   font-size: 20px;
+   line-height: 30px;
+ }
+
+ h1{
+   color: red;
+   text-align: center;
+ }
+
+.gallery{
+  width: 90%;
+  margin: auto;
+}
+ .gallery img{
+   width: 32%;
+   /*margin: 1%;*/
+   height: 300px;
+ }
