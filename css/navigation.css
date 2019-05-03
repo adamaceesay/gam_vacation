@@ -22,3 +22,6 @@
 .brands li:hover > ul{
 	display: block;
 }
+ head {
+	position: fixed;
+}

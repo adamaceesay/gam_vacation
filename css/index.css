@@ -73,6 +73,7 @@ h4{
 	background: lightgrey;
 	color:black;
 	font-size: 18px;
+	border-radius: 5em;
 }
 .wrap1 .button,.wrap1 a{
 	/*margin-top: 300px;*/
@@ -81,6 +82,10 @@ h4{
 	width: 55%;
 	/*color: white;*/
 	/*background-color: red;*/
+}
+.wrap1 .button a {
+	color: white;
+	font-size: 18px;
 }
 .wrap1 h1{
 	/*margin: auto;*/
@@ -380,4 +385,28 @@ width: 200px;
 .address{
 	margin-top: 100px;
 	font-size: 20px;
+}
+
+/***********************************
+Media Queries
+************************************/
+
+@media only screen and (min-width: 480px) {
+
+	nav ul li img {
+		/*float: left;
+		width: 30%;
+		margin: 0 0 0 5%;
+		padding: 25px 1%;
+		margin-bottom: 0;*/
+	}
+
+	nav ul li img {
+
+	}
+
+	nav ul li a {
+		/*float: right;*/
+
+	}
 }
