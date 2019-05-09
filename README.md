@@ -5,9 +5,11 @@ Gam Vaction is a website to help you search for hotel and vacation sites in The 
 
 ## Technologies
 
-HTML
-CSS
-JavaScript
+- HTML
+
+- CSS
+
+- JavaScript
 
 
 ## View the latest version of Gam Vacations Hotels & SPA at:
@@ -17,9 +19,9 @@ https://github.com/adamaceesay/gam_vacation
 
 ## Contributors
 
-- Adama Ceesay
+ Adama Ceesay
 
 
 ## License & copyright
 
-@ Adama Ceesay, Code Louisville @ BU - Spring 2019
+ Adama Ceesay, Code Louisville @ BU - Spring 2019
