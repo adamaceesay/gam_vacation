@@ -1,16 +1,16 @@
 # Gam Vacations Hotels & SPA
 
-Gam Vaction is website to help you search for hotel and vacation sites in The Gambia. Feel free to navigate through the links so that will see the different hotels we have for you. 
+Gam Vaction is a website to help you search for hotel and vacation sites in The Gambia. Feel free to navigate through the links, it provides different hotels that will help you find your need for an awesome vacation. All you need know to about the perfect spot for your vacation is provided at Gam Vacation Hotels & SPA.
 
----
 
-## 
+## Technologies
 
----
+HTML
+CSS
+JavaScript
 
-View the latest version of Gam Vacations Hotels & SPA at:
 
----
+## View the latest version of Gam Vacations Hotels & SPA at:
 
 https://github.com/adamaceesay/gam_vacation
 
@@ -19,7 +19,6 @@ https://github.com/adamaceesay/gam_vacation
 
 - Adama Ceesay
 
----
 
 ## License & copyright
 
