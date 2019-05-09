@@ -25,7 +25,7 @@ https://github.com/adamaceesay/gam_vacation
 ## License & copyright
 
 <div class="footer">
-        Copyright &copy; 2019 Adama Ceesay.
+        Copyright &copy; 2019, Adama Ceesay.
     </div>
 
  
