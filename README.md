@@ -25,7 +25,7 @@ https://github.com/adamaceesay/gam_vacation
 ## License & copyright
 
 <div class="footer">
-        &copy; 2019 Adama Ceesay, Code Louisville @ BU - Spring 2019
+        Copyright &copy; 2019 Adama Ceesay.
     </div>
 
  
