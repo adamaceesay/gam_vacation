@@ -28,4 +28,9 @@ https://github.com/adamaceesay/gam_vacation
         Copyright &copy; 2019, Adama Ceesay.
     </div>
 
- 
+## Acknowledgments
+
+ - Hat tip to anyone whose code was used
+ - Inspiration
+ - Thanks to Pa Sulay and Adama Daffeh for their support and explanations
+ - Big thanks to the Code Louisville Program
