@@ -32,5 +32,5 @@ https://github.com/adamaceesay/gam_vacation
 
  - Hat tip to anyone whose code was used
  - Inspiration
- - Thanks to Pa Sulay and Adama Daffeh for their support and explanations
+ - Thanks to Pa Sulay Jobe and Adama Daffeh for their support and explanations
  - Big thanks to the Code Louisville Program
