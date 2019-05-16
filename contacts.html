@@ -4,39 +4,80 @@
     <meta charset="utf-8">
     <title>Contacts</title>
     <link rel="stylesheet" type="text/css" href="css/index.css">
-    <!-- <link rel="stylesheet" type="text/css" href="css/button.css"> -->
     <link rel="stylesheet" type="text/css" href="css/navigation.css">
-  </head>
-  <body>
-  <div class="container">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="container">
+<!-- Simulate a smartphone / tablet -->
+<div class="mobile-container">
 
-    <header>
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="#home" class="active"><img src="imgs/coatOfArms.png"></a>
+  <div id="myLinks">
+    <a href="index.html">HOME</a>
+    <a href="about.html">ABOUT</a>
+    <a href="brusubi.html">Brusubi Hotel</a>
+    <a href="tanji.html">Tanji Hotel</a>
+    <a href="coco_ocean.html">Coco Ocean</a>
+    <a href="contacts.html">CONTACTS</a>
+  </div>
 
+  
+
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+
+<!-- End smartphone / tablet look -->
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+
+    <header >
+  <div class="sticky">
+    <div class="header" id="myHeader">
       <nav>
-        <ul class="menu">
-          <li><img src="imgs/coatOfArms.png"></li>
-          <li><a href="index.html">HOME</a></li>
-          <li><a href="about.html">ABOUT</a></li>
-          <li><a href="#"><div class="dropdown">
-            <span>OUR HOTELS</span>
-            <div class="dropdown-content">
-            <p><a href="brusubi.html">Brusubi Hotel</a></p>
-            <p><a href="tanji.html">Tanji Hotel</a></p>
-            <p><a href="coco_ocean.html">Coco Ocean</a></p>
-            </div>
-          </div></a></li>
-          <li><a href="contacts.html">CONTACTS</a></li>
-        </ul>
-      </nav>
+      <ul class="menu">
+        <li><img src="imgs/coatOfArms.png"></li>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="#">
+        <div class="dropdown">
+          <span>OUR HOTELS</span>
+          <div class="dropdown-content">
+          <p><a href="brusubi.html">Brusubi Hotel</a></p>
+          <p><a href="tanji.html">Tanji Hotel</a></p>
+          <p><a href="coco_ocean.html">Coco Ocean</a></p>
+          </div>
+        </div></a></li>
+        <li><a href="contacts.html">CONTACTS</a></li>
+      </ul>
+    </nav>
+    </div>
+  </div>
+    
 
-    </header>
+  </header>
 
-    <div class="contacts">
-      <div class="details">
+    <div class="contact">
+        <div class="detail" >
         <img src="imgs/gambia-map.gif" alt="">
       </div>
 
-       <div class="details address">
+       <div class="detail address">
         Address: Banjul, The Gambia <br> <br>
         Tel: +220 3990201,<br> <br> +220 9928272
 

@@ -3,10 +3,11 @@
 <head>
   <title>Gam Vacations Horels & SPA</title>
   <link rel="stylesheet" type="text/css" href="css/index.css">
-  <!-- <link rel="stylesheet" type="text/css" href="css/button.css"> -->
   <link rel="stylesheet" type="text/css" href="css/navigation.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script type="text/javascript" src="js/jquery-3.4.0.min.js"></script>
   <script type="text/javascript" src="js/slider.js"></script>
+
 </head>
 <script type="text/javascript">
 
@@ -22,16 +23,53 @@
 <body>
 <div class="container">
 
+<!-- Simulate a smartphone / tablet -->
+<div class="mobile-container">
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="#home" class="active"><img src="imgs/coatOfArms.png"></a>
+  <div id="myLinks">
+    <a href="index.html">HOME</a>
+    <a href="about.html">ABOUT</a>
+    <a href="brusubi.html">Brusubi Hotel</a>
+    <a href="tanji.html">Tanji Hotel</a>
+    <a href="coco_ocean.html">Coco Ocean</a>
+    <a href="contacts.html">CONTACTS</a>
+  </div>
+
+  
+
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
 
 
-  <header>
+<!-- End smartphone / tablet look -->
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
 
-    <nav>
+
+  <header >
+  <div class="sticky">
+    <div class="header" id="myHeader">
+      <nav>
       <ul class="menu">
         <li><img src="imgs/coatOfArms.png"></li>
         <li><a href="index.html">HOME</a></li>
         <li><a href="about.html">ABOUT</a></li>
-        <li><a href="#"><div class="dropdown">
+        <li><a href="#">
+        <div class="dropdown">
           <span>OUR HOTELS</span>
           <div class="dropdown-content">
           <p><a href="brusubi.html">Brusubi Hotel</a></p>
@@ -42,11 +80,13 @@
         <li><a href="contacts.html">CONTACTS</a></li>
       </ul>
     </nav>
-
+    </div>
+  </div>
+    
 
   </header>
 
-  <div class="slide">
+    <div class="slide">
     <img class="main_img" src="imgs/gambia_hotel3.jpeg" name="slide">
   </div>
   <script type="text/javascript">
@@ -72,8 +112,6 @@
          <p>The Gambia is a small West African country, bounded by Senegal, with a narrow Atlantic coastline. It's known for its diverse ecosystems around the central Gambia River. Abundant wildlife in its Kiang West National Park and Bao Bolong Wetland Reserve includes monkeys, leopards, hippos, hyenas and rare birds. The capital, Banjul, and nearby Serrekunda offer access to beaches.</p>
     </div>
 
-
-
     <footer>
       <div class="footer1">
         <span>
@@ -90,6 +128,5 @@
       @ 2019 Adama Ceesay
       </div>
     </footer>
-
   </body>
 </html>

@@ -2,48 +2,34 @@ body{
 	width:100%;
 	margin: 0px;
 	font-family: sans-serif;
-	/*font-size: 20px;*/
-	/*background-color: red;*/
 }
 
-.head{
-	/*width: 95%;*/
-	/*border: 1px solid black;*/
-}
 .head li{
 	display: inline;
 	text-decoration: none;
 	padding-right: 15px;
 	margin-top: 0px;
-	/*float: right;*/
-	/*margin-top: 0px;*/
+	margin: auto;
 }
 .head a{
 	text-decoration: none;
 	color: black;
 }
-.head .right{
+.head .right{	
 	float: right;
 }
-.head li:after{
-	content: "";
-	padding-left: 5px;
-	border-right: 1px solid black;
 
-}
 
 header{
-	/*display: flex;*/
-	margin-top: 75px;
+	margin-top: 95px;
 	margin: auto;
-	width: 75%;
-	/*background-color: red;*/
+	width: 100%;
 }
 header li{
 
 	display: inline;
 	padding-left: 30px;
-	/*margin-top: 30px;*/
+	margin-right: 70px;
 }
 header img{
 	margin-right: 130px;
@@ -53,6 +39,7 @@ header a{
 	text-decoration: none;
 	color: black;
 }
+
 h1{
 	color: blue;
 }
@@ -63,6 +50,32 @@ h3{
 h4{
 	color: white;
 }
+/* Style the header */
+.header {
+	padding: 10px 16px;
+	background-color: white;
+	color: #f1f1f1;
+}
+/* Page content */
+.container {
+	padding: 16px;
+	padding-top: 119px;
+}
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	margin-top: 0px;
+	margin: auto;
+}
+/* Add some top padding to the page content to prevent sudden 
+quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .container {
+	padding-top: 150px;
+}
+
+
 .section1{
 	background: url(../imgs/header.jpg);
 	background-size: cover;
@@ -119,15 +132,11 @@ h4{
 	margin-right: 20px;
 	color: white;
 	font-size: 14px;
-	/*margin-top: 30px;*/
 	text-decoration: none;
 }
 .section1 .button{
-	/*background-color: red;*/
 	margin-top: 90px;
-	/*margin-left: 30px;*/
 	padding-left: 40px;
-	/*margin: auto;*/
 }
 
 .section2 .hotels{
@@ -135,7 +144,6 @@ h4{
 	margin: auto;
 	width: 290px;
 	padding-top: 50px;
-	/*background-color: pink;*/
 
 }
 .section2 p{
@@ -144,7 +152,6 @@ h4{
 }
 
 .section2 .grid{
-	/*background-color: yellow;*/
 	display: flex;
 	justify-content:center;
 	padding-top: 80px;
@@ -157,19 +164,12 @@ h4{
 	width: 100%;
 	height: 210px;
 }
-/*.grid1 img{
-	width: 55%;
-	position: center;
-	padding-left: 140px;
-}*/
+
 .grid span, .grid1 span{
 	width: 20%;
-	/*margin: auto;*/
 	padding-right: 60px;
 }
-.grid .span1{
-	/*background-color: grey*/
-}
+
 .grid .button1, .grid1 .button1{
 	width: 80px;
 	margin: auto;
@@ -177,11 +177,9 @@ h4{
 	padding: 9px;
 	font-size: 16px;
 	margin-bottom: 20px;
-	/*text-align: center;*/
 }
 .button1 a{
 	color: black;
-	/*font-size: 16px;*/
 	text-decoration: none;
 	text-align: center;
 
@@ -221,13 +219,11 @@ h4{
 }
 .footer2{
 	margin-top: 20px;
-
 	background-color: #2c2c2c;
 	height: 30px;
 	text-align: center;
 	padding: 10px;
 	color: white;
-
 }
 
 .logo{
@@ -245,6 +241,7 @@ h4{
 .slide{
 	width: 70%;
 	margin: auto;
+	padding-top: 60px;
 }
 
 
@@ -290,24 +287,38 @@ h4{
 
 
 /*contact us*/
-.contacts{
+.contact{
 	display: flex;
 	justify-content: space-between;
-	width: 60%;
+	width: 70%;
 	margin: auto;
 	padding: 70px 0;
 }
-
+.contact img{
+	width: 90%;
+}
+.detail{
+	width: 100%;
+}
 .address{
-	margin-top: 100px;
-	font-size: 20px;
+	padding-top: 30px;
 }
 
 /***********************************
 Media Queries
 ************************************/
 
-@media only screen and (max-width: 560px) {
+@media only screen and (max-width: 950px) {
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header{
+	display: none;
+}
+
+
 
 /*section1*/
 	.section1{
@@ -338,11 +349,19 @@ Media Queries
 		font-size: 15px;
 	}
 
-
+.contact{
+	flex-wrap:wrap;
+}
 }
 
+@media only screen and (min-width: 950px){
+	.mobile-container {
+  display: none;
+}
 
+}
 @media only screen and (max-width: 808px){
+	
 	/*section2*/
 	.section2 p{
 		text-align: center;
@@ -377,9 +396,6 @@ Media Queries
 	.section3 h1{
 		font-size: 25px;
 	}
-
-/*aboutus*/
-	/*slider*/
 	.main_img{
 
 		width: 100%;
@@ -389,6 +405,7 @@ Media Queries
 	.slide{
 		width: 90%;
 		margin: auto;
+
 	}
 
 	.aboutus p{

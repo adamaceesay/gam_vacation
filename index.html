@@ -5,18 +5,57 @@
 	<link rel="stylesheet" type="text/css" href="css/index.css">
 	<!-- <link rel="stylesheet" type="text/css" href="css/button.css"> -->
 	<link rel="stylesheet" type="text/css" href="css/navigation.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <div class="container">
+<!-- Simulate a smartphone / tablet -->
+<div class="mobile-container">
 
-	<header>
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="#home" class="active"><img src="imgs/coatOfArms.png"></a>
+  <div id="myLinks">
+  	<a href="index.html">HOME</a>
+    <a href="about.html">ABOUT</a>
+    <a href="brusubi.html">Brusubi Hotel</a>
+    <a href="tanji.html">Tanji Hotel</a>
+    <a href="coco_ocean.html">Coco Ocean</a>
+    <a href="contacts.html">CONTACTS</a>
+  </div>
 
-		<nav>
+  
+
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+
+<!-- End smartphone / tablet look -->
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+
+	<header >
+	<div class="sticky">
+		<div class="header" id="myHeader">
+			<nav>
 			<ul class="menu">
 				<li><img src="imgs/coatOfArms.png"></li>
 				<li><a href="index.html">HOME</a></li>
 				<li><a href="about.html">ABOUT</a></li>
-				<li><a href="#"><div class="dropdown">
+				<li><a href="#">
+				<div class="dropdown">
 				  <span>OUR HOTELS</span>
 				  <div class="dropdown-content">
 				  <p><a href="brusubi.html">Brusubi Hotel</a></p>
@@ -27,6 +66,9 @@
 				<li><a href="contacts.html">CONTACTS</a></li>
 			</ul>
 		</nav>
+		</div>
+	</div>
+		
 
 	</header>
 
@@ -67,8 +109,7 @@
 				<img src="imgs/labranda_coral_beach.jpeg">
 				<h2>Coco Ocean Hotel</h2>
 				<p>
-					At Coco Ocean Resort & Spa you can cool off in one of the 4 outdoor swimming pools and indulge in a pampering afternoon at the full-service spa. At Coco Ocean, time is on your side!!!
-
+					At Coco Ocean Resort & Spa you can cool off in one of the 4 outdoor swimming pools and indulge in a pampering afternoon at the full-service spa.
 				</p>
 				<div class="button1">
 					<a href="coco_ocean.html">See More</a>
